@@ -21,25 +21,6 @@ create(@Body() body) {
 
 ---
 
-## Implementing Pagination with Query Parameters
-
-- `@Query()` decorator can be used to access query parameters.
-
-```typescript boards.controller.ts
-import { /* ... */ Query } from '@nestjs/common';
-
-@Controller('boards')
-export class BoardsController {
-    @Get()
-    getAll(@Query() query) {
-        const { page, limit } = query;
-        return `This action returns all boards. Page: ${page}, Limit: ${limit}`;
-    }
-}
-```
-
----
-
 ## Sending User-Friendly Error Messages
 
 - `@HttpException()` can be used to throw an exception with a **custom message** as a first argument and a **status code** as a second argument.
