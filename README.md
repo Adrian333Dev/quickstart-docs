@@ -10,4 +10,4 @@
 
 ## Table of Contents
 
-- [NestJS](./nestjs/README.md) - A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
+- [NestJS with TypeORM](./nestjs-typeorm)
