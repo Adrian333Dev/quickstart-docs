@@ -7,7 +7,3 @@
 **Note:** This is a work in progress and will be updated as I learn more about the technologies I use.
 
 ---
-
-## Table of Contents
-
-- [NestJS with TypeORM](./nestjs-typeorm)
